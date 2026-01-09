@@ -34,6 +34,8 @@ It performs a clean installation under `/opt` and configures system-wide access.
 ```bash
 sudo pacman -S curl tar
 ```
+--- 
+
 ## Installation
 
 git clone https://github.com/vol1t/install_discord-script.git
@@ -45,4 +47,4 @@ After installation, Discord can be launched from the application menu or by runn
 
 ```bash
 discord
-`` 
+```

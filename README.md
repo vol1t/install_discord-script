@@ -38,13 +38,20 @@ sudo pacman -S curl tar
 
 ## Installation
 
-git clone https://github.com/vol1t/install_discord-script.git
-cd install_discord-script
-chmod +x install_discord.sh
-sudo ./install_discord.sh
-
-After installation, Discord can be launched from the application menu or by running:
+Clone the repository:
 
 ```bash
-discord
+git clone https://github.com/vol1t/install_discord-script.git
+cd install_discord-script
+```
+
+Make the script executable:
+
+```bash
+chmod +x install_discord.sh
+```
+
+Run the script as root:
+```bash
+sudo ./install_discord.sh
 ```
